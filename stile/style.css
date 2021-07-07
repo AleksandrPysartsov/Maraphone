@@ -1,0 +1,210 @@
+*{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.nav-span{
+    margin-right: 114px;
+}
+
+.nav-link{
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #FA4A0C;
+}
+
+.app{
+    background-image: url("../img/bg-1.png");
+    text-align: center;
+    color: #F7F7F7;
+    padding: 80px 0 160px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.app-text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+}
+
+.app-title{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 800px;
+    margin: 10px auto 15px auto;
+    color:#fff;
+}
+
+.app-about{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-bottom: 55px;
+}
+
+.button{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color:#fff;
+    width: 236px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.button-container > .button:first-of-type{
+    background:  #FA4A0C;
+    border: none;
+    margin-right: 67px;
+}
+
+.button-container > .button:last-of-type{
+    background: none;
+    border: 1px solid #fff;
+}
+
+.mobile-container{
+    padding: 56px 0 185px 0;
+}
+
+.mobile-flex{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.mobile-app-title{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.mobile-flex__color{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.mobile-flex__title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 561px;
+    margin: 17px 0 27px 0;
+}
+
+.mobile-flex__text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 467px;
+}
+
+.mobile-varieties{
+    padding-top: 108px;
+}
+
+.order{
+    background-image: url("../img/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 147px 0 131px 0;
+}
+
+.order-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.order-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin: 20px 0 60px 0;
+}
+
+.order-btn{
+    border-radius: 10px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.order-btn-container>.order-btn:first-of-type{
+    width: 142px;
+    height: 64px;
+    background: #FA4A0C;
+    margin-right: 16px;
+    border: none;
+}
+
+.order-btn-container >.order-btn:last-of-type{
+    width: 173px;
+    height: 60px;
+    background: none;
+    border: 1px solid #fff;
+ 
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 107px 0 54px 0;
+}
+
+.copywright{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
